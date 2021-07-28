@@ -3,24 +3,18 @@
 ### C++
 
 #### day_one
-
 ###### 描述
-
 假设存在一个m*n的栅格，编写函数计算从左下角（坐标：0, 0）走右上角（坐标：m, n）的路径有多少种。只能沿栅格线走，且不能反向走，既只能向上或向右走。
 
 ###### 实现思路
 
-递归
+递归   [源代码](https://github.com/learnway299/Cpp_Qt_Practicing/blob/main/day_one/task_1.cpp)
 
 #### day_two
-
 ###### 描述
-
-使用C++实现quick sort算法。
-
+使用C++实现quick sort算法。   
 ###### 实现思路
-
-函数模板
+函数模板 [源代码](https://github.com/learnway299/Cpp_Qt_Practicing/blob/main/day_two/quicksort.cpp)
 
 #### day_three
 
@@ -37,9 +31,9 @@
    ###### 实现思路
 
    实现了基本功能
+   [源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_three)
 
 #### day_four
-
 ###### 描述
 
 ###### Dog类和Cat类继承Animal类，根据用户输入的数值，创建相应个数的Dog对象和Cat对象，然后调用speak()，如果发现是Dog类，调用swim()，最后销毁。实现思路
@@ -62,11 +56,10 @@
 ​       Now:1:1:1 2000-10-7 现在运行x秒:Now:1:1:6 2000-10-7
 
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_four)
 
 #### day_five
-
 ###### 描述
-
 ###### 实现向量类
 
 通过运算符重载实现一个向量类Vec2D，可以使以下测试代码编译通过。
@@ -128,9 +121,9 @@ int main() {
 ```
 
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_five)
 
 #### weekend_one
-
 ###### 描述
 
 超市里共有五大类商品（例：饮料、纸巾），要求设计一个抽象类（Commodity）来表示商品的共有特性（如商品名、商品ID、价格、特性描述等），饮料等商品派生自该抽象类并支持商品价格比较排序（重载’<‘运算符），超市管理类（SupermarketManager）负责管理所有的商品（增加商品、删除商品等功能实现）同时重载’[]’运算符支持按商品类型获取同类型所有商品（例子：[“Drinks”]返回所有饮料列表）。
@@ -150,11 +143,10 @@ int main() {
 ```
 
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/weekend_one)
 
 #### day_six
-
 ##### 实现一个KsoString类
-
 ###### 描述
 
 使用C++语言编写一个KsoString容器类，要点如下。
@@ -164,11 +156,10 @@ int main() {
 - 3.容器类提供operator[]的随机访问接口, 返回值为对应位置的字符，对于超出位置的情况，则返回0。
 
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_six)
 
 #### day_seven
-
 ##### 智能指针
-
 ###### 描述
 
 - 实现一个智能指针类，基本功能与std::shared_ptr相同。
@@ -179,11 +170,10 @@ int main() {
 - 编写智能指针类的测试用例，覆盖到上述各个方法；
 
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_seven)
 
 #### day_eight
-
 ##### 实现一个KMatrix矩阵容器类
-
 ###### 描述
 
 使用C++编写一个KMatrix容器类，内部可以存储一个二维矩阵数据，并满足以下要求：
@@ -244,87 +234,65 @@ void KMatrix::print() const; //需要体现矩阵的基本结构
 12、实现异常处理，比如叉乘不满足行列要求等其他异常的情况时抛出对应的异常；
 
 13、提供demo程序，演示上述操作。
-
-
+###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_eight)
 
 ### Qt
-
-###### 实现思路
-
 #### day_nine
-
 ###### 描述
-
 1. 要求实现一个简单的计算，可以实现加法运算。
 2. 利用信号-槽机制。
 3. 点击 = 后，可以对表达是进行运算，如：3+5 ，点击 = 后，可直接显示成 8.	
-
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_nine)
 
 #### weekend_two
-
 ###### 描述
-
 安装引导程序
-
 - 实现一个登录框
 -  实现一个进度条
 -  弹出一个模态对话框。
 -  菜单、工具栏
-
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/weekend_two)
 
 #### day_ten
-
 ###### 描述
-
 绘制一个奥运五环标志
-
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_ten)
 
 #### day_eleven
-
 ###### 描述
-
 -  实现无边框对话框， 利用image中的图片，可不要求对话框尺寸以及显示效果完全相同。
 - 要求对话框可以标题栏进行拖动
 - 中文处理使用ts文件进行翻译。
 - 尽量使用qss 文件对对话进行美化。
-
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_eleven)
 
 #### day_twelve
-
 ###### 描述
-
 文件的读写同步到日志文件，监听日志文件发生改变后发送到界面显示
-
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_twelve)
 
 #### day_thirteen
-
 ###### 描述
-
 两个对话框实现C-S通信
-
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_thirteen)
 
 #### day_fourteen
-
 ###### 描述
-
 Process Monitor等工具的使用
-
 ###### 实现思路
+[源代码](https://github.com/learnway299/Cpp_Qt_Practicing/tree/main/day_fourteen)
 
 #### weekend_finnally
-
 ##### 一个简单工具的实现
-
 系统桌面文件遍历工具
-
 ###### 描述：
-
 开发一个能够搜索系统桌面目录下的文件的GUI工具，具有的功能清单如下:
 
 -   在搜索栏输入关键字，快速搜索系统桌面目录里的文件和文件夹，展示在列表中，包含程序图标、名称、路径、大小信息。（搜索结果无需包含桌面文件夹中的子文件和子文件夹;）
@@ -332,7 +300,6 @@ Process Monitor等工具的使用
 -   程序启动后默认隐藏，通过alt+空格唤出，再次按下alt+空格隐藏;
 -   中文名称的程序支持通过拼音首字母进行搜索，例如输入“wx"，能够搜到“微信”程序;
   参考everything,listary等实现一个简化版本。
-
 ###### 完成效果：
-
-实现了模糊匹配等基本功能，中文转拼音借鉴了http://blog.csdn.net/csnd_ayo，std::string(xx.toLocal8Bit());//解决了转换乱码问题
+实现了模糊匹配等基本功能，中文转拼音借鉴了[参考网址](http://blog.csdn.net/csnd_ayo)，std::string(xx.toLocal8Bit());//解决了转换乱码问题
+[源代码]()
