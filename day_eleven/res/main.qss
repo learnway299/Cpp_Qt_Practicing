@@ -1,0 +1,98 @@
+QWidget{
+background-color:transparent;
+}
+
+QDialog{
+background-color: gainsboro;
+background-image: url(:/res/image/background.png);
+background-position: top right;
+background-repeat: no-repeat
+}
+
+QLineEdit{
+border:2px groove gray;
+border-radius:10px;}
+
+QFrame{
+border:none
+}
+
+QLable{
+border:none
+}
+
+QGraphicsView{
+border:none
+}
+
+QLable#label
+{
+color: rgb(0, 170, 255);}
+
+QPushButton#clostBtn
+{
+border-image:url(:/res/image/close-normal.png);
+border-width:0px 0px 0px 0px;
+background-repeat:none;
+background-origin: content;
+}
+
+QPushButton#clostBtn:hover
+{
+border-image:url(:/res/image/close-hover.png);
+border:none
+}
+
+QPushButton#ouput
+{
+border:2px groove gray;
+border-radius:10px;
+padding:2px 4px;
+background-color: rgb(0, 170, 255);
+color: rgb(255, 255, 255);
+}
+
+QPushButton#ouput:hover
+{
+background-color: rgb(0, 170, 127);
+}
+
+QFrame#frame:checked
+{
+border-image: url(:/res/image/watermarkitemclick.png);
+}
+
+QFrame#frame:hover
+{
+border-image: url(:/res/image/watermarkitemhover.png);
+}
+
+QFrame#frame2:checked
+{
+border-image: url(:/res/image/watermarkitemclick.png);
+}
+
+QFrame#frame2:hover
+{
+border-image: url(:/res/image/watermarkitemhover.png);
+}
+
+QGraphicsView#graphicsView
+{
+background-image: url(:/res/image/watermarkitem.png);
+}
+
+QGraphicsView#graphicsView:hover
+{
+background-image: url(:/res/image/watermarkdemo.png);
+}
+
+QGraphicsView#graphicsView2
+{
+background-image: url(:/res/image/normalqualityitem.png);
+}
+
+QGraphicsView#graphicsView2:hover
+{
+background-image: url(:/res/image/nowatermarkitem.png);
+}
